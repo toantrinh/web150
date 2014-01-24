@@ -1,0 +1,56 @@
+<HTML>
+<HEAD>
+<TITLE>
+Buying tickets for a football game
+</TITLE>
+<SCRIPT LANGUAGE = "JavaScript">
+
+
+function getStringInput(){ 
+
+myString = window.prompt('please enter your full name:',''); 
+if(!myString){ 
+return 
+} 
+
+if (myString.length < 4 )
+{ 
+alert("Please re-enter your correct full name: ") 
+getStringInput() 
+return 
+} 
+var min = 1;
+alert("Now enter number of tickets that you want to purcharge:" ) 
+
+getNumber() 
+} 
+function getNumber()
+{ 
+myNumber = window.prompt('Enter your amount of tickets:','');
+if(myNumber>min){
+
+return
+myString=window.prompt('Thank you for purcharging tickets from us');
+}
+
+if (count.myNumber < min)
+
+window.prompt('You enter incorrect amount of ticket!');
+showResults() 
+} 
+
+
+function showResults(){
+} 
+
+
+</script>
+
+
+
+</HEAD> 
+<BODY onload="getStringInput()"> 
+<div id="display"></div> 
+Welcome to our online ticket box!
+</BODY> 
+</HTML>
